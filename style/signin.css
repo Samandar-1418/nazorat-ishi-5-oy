@@ -1,0 +1,164 @@
+/* general style   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+  width: 1440px;
+  height: 750px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      97deg,
+      rgba(0, 0, 0, 0.96) 45.2%,
+      rgba(0, 0, 0, 0.37) 183.67%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+header {
+  width: 1490px;
+  height: 101px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      97deg,
+      rgba(0, 0, 0, 0.96) 45.2%,
+      rgba(0, 0, 0, 0.37) 183.67%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+  padding-left: 50px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 101px;
+  flex-shrink: 0;
+  border-bottom: 0.5px solid rgba(216, 216, 216, 0.45);
+  background: rgba(13, 12, 17, 0.02);
+  padding-left: 10px;
+  margin-bottom: 115px;
+}
+.navbar input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #ededed;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#regestration {
+  width: 698px;
+  height: 608px;
+  flex-shrink: 0;
+  border-radius: 49.09px;
+  background: var(--Form-Bg, #f6fbf9);
+  background-image: url('../images/Spider-Man-No-Way-Home-IMAX-poster-cropped-1160x580.jpg');
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+h3 {
+  width: 483.231px;
+  height: 72.101px;
+  flex-shrink: 0;
+  color: var(--Heading, #212b27);
+  text-align: center;
+  font-family: Karla;
+  font-size: 55.226px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.794px;
+  margin-top: 87px;
+  margin-left: 107px;
+  margin-right: 107px;
+}
+#create_info {
+  text-align: center;
+  font-family: Karla;
+  font-size: 55.226px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.794px;
+  color: rgb(10, 175, 59);
+  text-align: center;
+  font-family: Karla;
+  font-size: 23.011px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.914px;
+  margin-bottom: 50px;
+}
+#email {
+  width: 575.275px;
+  height: 84.374px;
+  flex-shrink: 0;
+  border-radius: 15.341px;
+  border: 1.534px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+#password {
+  width: 575.275px;
+  height: 84.374px;
+  flex-shrink: 0;
+  border-radius: 15.341px;
+  border: 1.534px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+#create_account {
+width: 100%;
+width: 200px;
+padding: 15px;
+border-radius: 10px;
+color: white;
+background-color: aqua;
+margin-left: 200px;
+border: none;
+}
+#account {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 326.756px;
+  height: 29.147px;
+  flex-shrink: 0;
+  color: var(--Paragraph, #28b885);
+  text-align: center;
+  font-family: Karla;
+  font-size: 21.477px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.92px;
+  text-align: center;
+}
+main {
+    width: 1400px;
+    height: 800px;
+margin: 0 auto;
+}
+a{
+    font-size: 24px;
+    color: rgb(240, 233, 238);
+}

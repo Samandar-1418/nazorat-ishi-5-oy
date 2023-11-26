@@ -1,0 +1,134 @@
+ /* general style   */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 750px;
+    flex-shrink: 0;
+    background: linear-gradient(97deg, rgba(0, 0, 0, 0.96) 45.2%, rgba(0, 0, 0, 0.37) 183.67%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+header {
+    width: 1490px;
+height: 101px;
+flex-shrink: 0;
+background: linear-gradient(97deg, rgba(0, 0, 0, 0.96) 45.2%, rgba(0, 0, 0, 0.37) 183.67%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+padding-left: 50px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+height: 101px;
+flex-shrink: 0;
+border-bottom: 0.5px solid rgba(216, 216, 216, 0.45);
+background: rgba(13, 12, 17, 0.02);
+padding-left: 10px;
+margin-bottom: 115px;
+}
+.navbar input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+ul li {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #EDEDED;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+main {
+    width: 100%;
+    max-width:1440px;
+    padding: 20px;
+    background-image: url('../images/desktop-wallpaper-sherlock-sherlock-holmes-cartoon.jpg');
+}
+#signup_regestration {
+    width: 414px;
+    height: 656px;
+    border-radius: 20px;
+border: 1px solid var(--a-8-a-6-a-7, #A8A6A7);
+background: #FFF;
+border-radius: 10px;
+margin: 0 auto;
+}
+.title {
+    width: 382px;
+height: 109px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Nunito;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 20px;
+}
+.signup_text {
+    display: flex;
+width: 382px;
+height: 44px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 30px;
+}
+#textInput,#emailInput,#passwordInput,#repasswordInput{
+    display: flex;
+    padding: 20px;
+width: 342px;
+height: 44px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: var(--a-8-a-6-a-7, #5f595c);
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 18px;
+margin-top: 10px;
+}
+#repasswordInput {
+    margin-bottom: 30px;
+
+}
+#signin {
+    width: 100%;
+    width: 200px;
+    padding: 15px;
+    border:none;
+    border-radius:15px;
+    background-color: blue;
+    color:white;
+    margin-left: 80px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:aqua;
+}
